@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:rgb(78, 3, 78);
+
+
+}
+.container{
+    background-color: #a774f3;
+    /* display: flex; */
+    /* max-width: 500px; */
+    width: 25rem;
+    height: 30rem;
+    margin: 50rem;
+    margin-block: 10rem;
+    padding: 15rem;
+    /* gap: 10px; */
+    justify-content: center;
+    align-items: center;
+    /* padding-right:15px ; */
+}
+
+h1{
+    padding:0px; 
+    top:10px;
+    font-size:40px;
+    font-family: sans-serif;
+    font: bolder;
+  
+
+    /* padding-bottom: 5rem; */
+}
+
+.p{
+    color: rgb(61, 50, 50);
+    margin-bottom: 2rem;
+    margin-top:1rem ;
+    font-size:18px;
+}
+
+.p hr{
+border-color:rgb(238, 230, 230);
+ margin-top: 20px;
+
+}
+
+
+form{
+    gap: 10rem;
+    width: 300px;
+    margin: 0 auto;
+    padding-right: 20rem;
+    font-size: larger;
+}
+
+/* Style for form container */
+  
+  /* Style for form groups (label + input) */
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  /* Style for labels */
+  label {
+    display: block;
+    /* margin-bottom: 5px; */
+  }
+  
+  /* Style for inputs */
+  input[type="text"],
+  input[type="password"] {
+    width: 120%;
+    padding: 8px;
+    border: 5px solid #3316d8;
+    border-radius: 5px;
+
+  }
+  form input{
+    margin-bottom: 5px;
+    color: rgb(149, 8, 225);
+    font-size: larger;
+
+  }
+/* 
+  /* form hr{
+    padding-bottom:3rem
+    } */ */
+
+  .last{
+    color: rgb(26, 24, 24);
+  }
+.last p{
+  padding-top:2rem;
+}
+
+
+.lastOne{
+  margin-top: 10px;
+padding-top:4rem;
+align-items: center;
+margin-inline:10px
+
+}
+.last hr{
+padding-right: 10rem;
+display: flex;
+margin-top: 3rem;
+width: 30rem;
+padding-right:0rem;
+
+}
+
+
+
+.but{
+  background-color: #3316d8;
+  color: aliceblue;
+  display: 10rem;
+width: 30rem; 
+height: 50px;
+padding-left:20rem;
+align-items: center;
+border-radius: 5px;
+padding-left: 10px;
+margin-top: 15px;
+}
+  
+.but h3{
+  align-items: center;
+  display: flex;
+  padding-top: 0.5rem;
+  padding-left: 12rem;
+  /* padding-right: 20rem; */
+  margin-bottom: 10px;
+  /* margin-right:40rem; */
+}
+
+.but hr{
+  display: flex;
+  margin-top: 3rem;
+  width: 25rem;
+  padding-right:0rem;
+
+}
+
+  /* Style for submit button */
+  /* button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  } */ 
+  
+  /* Hover effect for submit button */
+  /* button[type="submit"]:hover {
+    background-color: #0056b3;
+  } */
+  
+/* .register{
+    font-weight: 90;
+} */
